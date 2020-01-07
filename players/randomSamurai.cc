@@ -9,19 +9,19 @@ int planSamurai(GameInfo &info) {
   int plan = -1;
   int trials = 10;
   while (--trials > 0) {
-    auto n = myCell.fourNeighbors[rand()%myCell.fourNeighbors.size()];
+    auto n = myCell.fourNeighbors[rand() % myCell.fourNeighbors.size()];
     int dir = directionOf(myCell.position, n->position);
     bool noHole = noHolesIn(n->position, info);
     if (noAgentsIn(n->position, info)) {
-      if (rand()%100 < MovePercentage && noHole) {
-	plan = dir;
-	break;
+      if (rand() % 100 < MovePercentage && noHole) {
+        plan = dir;
+        break;
       } else if (noHole) {
-	plan = dir+8;
-	break;
+        plan = dir + 8;
+        break;
       } else {
-	plan = dir+16;
-	break;
+        plan = dir + 16;
+        break;
       }
     }
   }
