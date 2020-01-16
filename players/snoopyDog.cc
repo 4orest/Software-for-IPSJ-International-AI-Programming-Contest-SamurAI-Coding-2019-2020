@@ -4,6 +4,7 @@ const int FailureAvoidPercentage = 70;
 const int WaitChanceThresh = -2;
 const int StrollDepth = 5;
 
+// depth回移動したときに, 未探査の場所を探査する数を最大にするような移動方向を返す
 static int gatheredInfo(int depth, CellInfo &start, const GameInfo &info) {
   int gathered = 0;
   vector <CellInfo *> newInfo;
