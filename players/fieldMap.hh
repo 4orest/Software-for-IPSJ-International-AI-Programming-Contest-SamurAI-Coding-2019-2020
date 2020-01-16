@@ -20,6 +20,7 @@ extern void initFieldMap(GameInfo &info);
 
 extern int samuraiDistance(CellInfo *from, CellInfo *to, set <Cell> &holes);
 
+// inline functionはこの処理が呼んだ場所に埋め込まれる
 inline int directionOf(Cell &from, Cell &to) {
   static int directions[] = {3, 2, 1, 4, -1, 0, 5, 6, 7};
   return directions[3*(to.x-from.x+1)+to.y-from.y+1];

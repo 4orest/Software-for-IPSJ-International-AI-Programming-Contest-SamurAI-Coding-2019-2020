@@ -21,7 +21,7 @@ struct GameInfo {
   int step;                         // ステップ番号(0始まり)
   int maxSteps;                     // 最大ステップ番号
   set<Cell> holes;                  // 穴のあるセルの位置のリスト
-  map<Cell, int> revealedTreasure;  // 公知の埋蔵金
+  map<Cell, int> revealedTreasure;  // 公知の埋蔵金 (位置, 埋蔵量)
   map<Cell, int> sensedTreasure;    // 感知した埋蔵金
   Cell positions[4];  // エージェントの位置 (0: 侍(Aチーム), 1: 侍(Bチーム), 2:
                       // 犬(Aチーム), 3: 犬(Bチーム))

@@ -65,15 +65,15 @@ int planDog(GameInfo &info) {
     int distDiff = 
       samuraiDistance(oppCell, sensed, info.holes) -
       samuraiDistance(samuraiCell, sensed, info.holes);
-    if (distDiff > largestDiff ||
-	(distDiff == largestDiff && s.second > largestAmount)) {
+    if (distDiff > largestDiff || // 自分と相手との差が最も離れている or 差は同じで金が多い
+      (distDiff == largestDiff && s.second > largestAmount)) {
       // Check the distances of friend and opponent samurai.
       // Also check if any other agents are in the gold cell.
       if (noAgentsIn(s.first, info)) {
-	// If not, going to the cell can be a candidate plan
-	largestDiff = distDiff;
-	largestAmount = s.second;
-	candidate = s.first;
+	      // If not, going to the cell can be a candidate plan
+	      largestDiff = distDiff;
+	      largestAmount = s.second;
+	      candidate = s.first;
       }
     }
   }
@@ -84,6 +84,8 @@ int planDog(GameInfo &info) {
   } else if (largestDiff > WaitChanceThresh) {
     // Else if the distance difference is not large,
     // stand still waiting for a next chance.
+    // 相手の方が自分の侍よりWaitChanceThresh以下だけ金に近いときは, 
+    // 相手侍と自侍にそんなに差が無いのでチャンスを伺う
     return -1;
   }
   // Start strolling to gather as much info as possible
@@ -94,11 +96,11 @@ int planDog(GameInfo &info) {
     if (gathered >= maxInfo) {
       int plan = directionOf(pos, c->position);
       if (plan != avoidPlan) {
-	if (gathered > maxInfo) {
-	  bestPlans.clear();
-	  maxInfo = gathered;
-	}
-	bestPlans.push_back(plan);
+	      if (gathered > maxInfo) {
+	        bestPlans.clear();
+	        maxInfo = gathered;
+	      }
+	      bestPlans.push_back(plan);
       }
     }
   }
