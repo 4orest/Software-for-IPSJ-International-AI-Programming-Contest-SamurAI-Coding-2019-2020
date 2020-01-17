@@ -2,8 +2,14 @@ all:
 	cd manager; make all
 	cd players; make all
 
-testrun: all
-	manager/manager samples/sample.dighere players/simplePlayer players/simplePlayer >samples/testout.dighere
+testrun: all # 左が赤, 右が青
+	manager/manager preliminary-fields/kk-field-1.dighere players/simplePlayer players/myPlayer >samples/testout.dighere
+
+testallmap: all
+	for i in `ls preliminary-fields/`
+	do
+		manager/manager preliminary-fields/$i players/simplePlayer players/myPlayer >testlog/$i
+	done
 
 TAGS:
 	etags */*.cc */*.hh
