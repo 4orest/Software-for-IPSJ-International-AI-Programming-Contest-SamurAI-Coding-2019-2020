@@ -5,7 +5,8 @@ BASICOBJECTS= playerMain.o gameInfo.o fieldMap.o
 SIMPLEOBJECTS= $(BASICOBJECTS) greedySamurai.o snoopyDog.o
 RANDOMOBJECTS= $(BASICOBJECTS) randomSamurai.o randomDog.o
 TIMEOUTOBJECTS=  $(BASICOBJECTS) timeoutSamurai.o randomDog.o
-EXECUTABLES= simplePlayer randomPlayer timeoutPlayer
+MYOBJECTS= $(BASICOBJECTS) mySamurai.o myDog.o
+EXECUTABLES= simplePlayer randomPlayer timeoutPlayer myPlayer
 DIGGEROBJECTS= $(BASICOBJECTS) diggerSamurai.o randomDog.o
 
 all: $(EXECUTABLES)
@@ -22,6 +23,9 @@ timeoutPlayer: $(TIMEOUTOBJECTS)
 	${CXX} -o $@ $^ $(LDFLAGS)
 
 diggerPlayer: $(DIGGEROBJECTS)
+	${CXX} -o $@ $^ $(LDFLAGS)
+
+myPlayer: $(MYOBJECTS)
 	${CXX} -o $@ $^ $(LDFLAGS)
 
 -include ${OBJECTS:.o=.d}
