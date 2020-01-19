@@ -26,7 +26,7 @@ int planSamurai(GameInfo &info) {
     }
   }
   if (maxTreasure > 0) return directionOf(pos, digCand) + 8;
-  // Move towards the nearest known treasure
+  // Move towards the most efficient in known treasure value per samuraiDistance
   {
     vector <pair<Cell, int>> candidates;
     int closest = numeric_limits<int>::max();
@@ -34,13 +34,12 @@ int planSamurai(GameInfo &info) {
       for (auto g: info.revealedTreasure) {
 	      if (noAgentsIn(n->position, info)) {
 	        int dist = samuraiDistance(n, &cells[g.first.x][g.first.y], info.holes);
-	        if (dist <= closest) {
-	          if (dist != closest) {
-	            candidates.clear();
-	            closest = dist;
-	          }
-	          candidates.push_back(pair<Cell, int>(n->position, g.second));
-	        }
+          Cell enemypos = info.positions[id == 0 ? 1 : 0];
+          CellInfo &enemyCell = cells[enemypos.x][enemypos.y];
+          int enemydist = samuraiDistance(&enemyCell, &cells[g.first.x][g.first.y], info.holes);
+          if (dist - 1 <= enemydist) {
+	          candidates.push_back(pair<Cell,int>(n->position, g.second));
+          }
 	      }
       }
     }
@@ -54,7 +53,7 @@ int planSamurai(GameInfo &info) {
     }
   }
   // No revealed gold
-  // Try to approach the dog, hoping it to find some gold
+  // Try to approach the enemy dog, hoping it to block enemy samurai
   int closest = numeric_limits<int>::max();
   Cell dogPos = info.positions[id+2];
   CellInfo &dogPosInfo = cells[dogPos.x][dogPos.y];
