@@ -19,9 +19,9 @@ int planSamurai(GameInfo &info) {
     if (noAgentsIn(n->position, info)) {
       auto treasure = info.revealedTreasure.find(n->position);
       if (treasure != info.revealedTreasure.end() &&
-	  treasure->second > maxTreasure) {
-	digCand = n->position;
-	maxTreasure = treasure->second;
+	        treasure->second > maxTreasure) {
+	      digCand = n->position;
+	      maxTreasure = treasure->second;
       }
     }
   }
