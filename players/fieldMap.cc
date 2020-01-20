@@ -41,15 +41,15 @@ int samuraiDistance
     while (!np0->empty()) {
       CellInfo *c = np0->top(); np0->pop();
       if (visited.count(c) == 0) {
-	visited.insert(c);
-	for (auto n: c->fourNeighbors) {
-	  if (n == to) return dist;
-	  if (holes.count(n->position) == 0) {
-	    np1->push(n);
-	  } else {
-	    np2->push(n);
-	  }
-	}
+	      visited.insert(c);
+	      for (auto n: c->fourNeighbors) {
+	        if (n == to) return dist;
+	        if (holes.count(n->position) == 0) {
+	          np1->push(n);
+	        } else {
+	          np2->push(n);
+	        }
+	      }
       }
     }
     np0 = np1; np1 = np2; np2 = np0;

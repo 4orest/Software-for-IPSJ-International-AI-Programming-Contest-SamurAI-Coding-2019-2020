@@ -2,7 +2,7 @@ all:
 	cd manager; make all
 	cd players; make all
 
-testrun: all
+testrun: all # 左が赤, 右が青
 	manager/manager samples/sample.dighere players/simplePlayer players/simplePlayer >samples/testout.dighere
 
 TAGS:

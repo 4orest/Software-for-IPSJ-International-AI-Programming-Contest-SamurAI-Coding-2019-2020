@@ -1,0 +1,181 @@
+kk-field-6.dighere
+Agent 2 timed out
+
+kk-field-4.dighere
+
+cc-60th_anniversary.dighere
+
+mm11.dighere
+
+mm12.dighere
+
+yy-bneck2.dighere
+
+kk5-samurai.dighere
+
+yy-try1.dighere
+Agent 2 timed out
+Agent 3 timed out
+Agent 2 timed out
+
+mm18.dighere
+
+tt-rescue2.dighere
+
+kk-field-5.dighere
+
+yy-separate2.dighere
+
+kk-field-1.dighere
+
+mm06.dighere
+
+mm10.dighere
+Agent 3 timed out
+Agent 3 timed out
+
+kk2-savedog.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+tt-center2.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+kk-field-10.dighere
+
+kk9-sclogo2.dighere
+
+yy-unbalance2.dighere
+
+mm07.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+yy-separate4.dighere
+
+mm00.dighere
+
+kk1-ipsj.dighere
+Floating point exception (core dumped)
+
+yy-bneck1.dighere
+
+mm01.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+tt-maze2.dighere
+
+mm09.dighere
+
+kk8-digorgo.dighere
+
+cc-holeriver.dighere
+
+kk7-explicit.dighere
+
+kk-field-11.dighere
+
+kk-field-8.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+yy-initial.dighere
+Agent 2 timed out
+Agent 2 timed out
+
+yy-separate3.dighere
+Agent 2 timed out
+
+mm15.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+tt-checker2.dighere
+
+kk6-moat.dighere
+Floating point exception (core dumped)
+
+kk-field-12.dighere
+
+cc-cavebare.dighere
+Agent 3 timed out
+
+kk-field-7.dighere
+
+mm05.dighere
+
+kk4-sclogo.dighere
+
+kk-field-9.dighere
+
+yy-separate1.dighere
+Agent 3 timed out
+
+cc-release.dighere
+
+mm16.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+mm14.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+mm03.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+kk3-zigzag.dighere
+
+kk-field-2.dighere
+
+yy-unbalance1.dighere
+
+mm13.dighere
+
+mm17.dighere
+
+mm04.dighere
+
+tt-squares2.dighere
+
+mm19.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+
+mm02.dighere
+
+kk-field-3.dighere
+Agent 3 timed out
+
+yy-narrow1.dighere
+Floating point exception (core dumped)
+Floating point exception (core dumped)
+Agent 3 timed out
+
+mm08.dighere
+Agent 2 timed out
+
+cc-godown.dighere
+Agent 2 timed out
+Agent 3 timed out
+
+myPlayer win: 7
+simplePlayer win: 44
+draw win: 73
