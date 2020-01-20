@@ -41,5 +41,4 @@ for i in maps:
 
 print("myPlayer win:", format(myPlayerWin))
 print("simplePlayer win:", format(enemyWin))
-print("draw win:", format(draw))
-
+print("draw:", format(draw))
