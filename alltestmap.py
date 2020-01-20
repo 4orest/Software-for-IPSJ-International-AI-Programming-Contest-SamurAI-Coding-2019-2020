@@ -13,7 +13,7 @@ for i in maps:
               " players/myPlayer players/simplePlayer >testlog/red" + i)
 
     result = open("testlog/blue" + i, 'r').read()
-    index = result.find("scores")
+    index = result.rfind("scores")
     result = result[index : ]
     num = re.findall("[0-9]+", result)
     redWin = int(num[0])
