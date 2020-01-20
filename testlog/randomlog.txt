@@ -1,0 +1,163 @@
+yy-separate2.dighere
+
+mm18.dighere
+
+mm09.dighere
+
+mm19.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+tt-squares2.dighere
+
+kk-field-1.dighere
+
+mm14.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+mm10.dighere
+
+kk5-samurai.dighere
+
+kk-field-5.dighere
+
+yy-separate1.dighere
+
+tt-center2.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+tt-checker2.dighere
+
+cc-60th_anniversary.dighere
+
+kk-field-3.dighere
+
+kk-field-2.dighere
+
+cc-holeriver.dighere
+
+tt-maze2.dighere
+
+kk4-sclogo.dighere
+
+mm06.dighere
+
+kk-field-4.dighere
+
+kk-field-9.dighere
+
+cc-cavebare.dighere
+
+mm12.dighere
+
+cc-godown.dighere
+
+kk1-ipsj.dighere
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+kk-field-12.dighere
+
+kk2-savedog.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+kk9-sclogo2.dighere
+
+mm13.dighere
+
+yy-narrow1.dighere
+
+kk6-moat.dighere
+
+yy-separate4.dighere
+
+tt-rescue2.dighere
+
+mm02.dighere
+
+yy-initial.dighere
+
+mm01.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+mm00.dighere
+
+yy-unbalance1.dighere
+
+mm11.dighere
+
+kk-field-8.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+yy-unbalance2.dighere
+
+mm15.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+
+kk8-digorgo.dighere
+
+kk3-zigzag.dighere
+
+kk-field-7.dighere
+
+mm05.dighere
+
+kk7-explicit.dighere
+
+cc-release.dighere
+
+kk-field-6.dighere
+
+mm16.dighere
+
+yy-bneck2.dighere
+
+kk-field-10.dighere
+
+yy-separate3.dighere
+
+mm03.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+mm07.dighere
+Floating point exception (core dumped)
+Agent 3 error in flushing pipe
+Floating point exception (core dumped)
+Agent 2 error in flushing pipe
+
+yy-bneck1.dighere
+
+kk-field-11.dighere
+
+mm17.dighere
+
+yy-try1.dighere
+
+mm04.dighere
+
+mm08.dighere
+
+myPlayer win: 80
+simplePlayer win: 37
+draw: 7

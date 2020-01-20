@@ -8,9 +8,9 @@ draw = 0
 for i in maps:
     print(i)
     os.system("manager/manager preliminary-fields/" + i +
-              " players/simplePlayer players/myPlayer >testlog/blue" + i)
+              " players/randomPlayer players/myPlayer >testlog/blue" + i)
     os.system("manager/manager preliminary-fields/" + i +
-              " players/myPlayer players/simplePlayer >testlog/red" + i)
+              " players/myPlayer players/randomPlayer >testlog/red" + i)
 
     result = open("testlog/blue" + i, 'r').read()
     index = result.rfind("scores")
